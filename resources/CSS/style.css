@@ -3,6 +3,7 @@ body{
     color: #4d4b4b;
     width: 100%;
     height: auto;
+    background-color: rgb(235, 232, 232);
     
 }
 
@@ -68,8 +69,7 @@ body{
 
 
 .banner{
-    background-color: red;
-    display: inline-block; 
+    background-color: rgb(182, 178, 178); 
     width: 100%;
 }
 .banner img{
@@ -82,7 +82,6 @@ body{
     width: 34%;   
     float: left;
     padding: 128px 24px 128px 24px;
-    
 }    
 .inner_banner h1{
     font-size: 38px;
@@ -212,14 +211,12 @@ body{
 
    
 .information_guest{
-    float: left;
     background-color: lightgray;
 
 }
 .information_guest img{
     width: 35%;
-    padding: 0px 16px 16px 16px;
-      
+    padding: 0px 16px 16px 16px;    
 }
 
 .guest {
@@ -242,5 +239,36 @@ body{
     color: skyblue;
     font-size: 14px;
 }
+.middle{
+    background-color: lightgrey;
+    width: 100%;
+}
+.row {
+    display: inline-block;
+    width: 100%;
+    padding: 32px 72px;  
+}
+.column {
+    display: inline-block;
+    width: 28%;
+    background-color: white;
+    margin-right: 32px;
+}
+.column img {
+    width: 100%;
+    
+}
+.column_text{
+    padding: 16px 16px 24px 16px; 
+    
+}  
+.column h1{
+    font-size: 20px;
+}
 
+.column h2, h3 {
+    font-size: 14px;
+    font-weight: lighter;
+    padding-top: 8px;
+}
 
