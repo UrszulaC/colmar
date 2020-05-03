@@ -3,6 +3,7 @@ body{
     color: #4d4b4b;
     width: 100%;
     height: auto;
+    
 }
 
 
@@ -67,27 +68,25 @@ body{
 
 
 .banner{
-    background-color: lightgray; 
+    background-color: red;
     display: inline-block; 
-    width: 60%;
-    height: auto;
+    width: 100%;
 }
 .banner img{
-    width: 60%;
-    padding: 32px 24px 32px 24px;
+    width: 55%;
+    padding: 32px 32px 32px 24px;
     float: left;
-    height: auto;
        
 }
 .inner_banner{
     width: 34%;   
-    color: #4d4b4b;
-    height: auto;
     float: left;
-    padding: 128px 24px 128px 0px;
+    padding: 128px 24px 128px 24px;
+    
 }    
 .inner_banner h1{
-    font-size: 40px;
+    font-size: 38px;
+    
 }  
 .inner_banner h2{
     font-size: 22px;
@@ -99,33 +98,30 @@ body{
     font-weight: lighter;
     text-align: center;
     padding: 8px 16px;
+    vertical-align: middle;
 }
 .button {
     background-color: #4d4b4b;
-    width: auto;
+    width: 75%;
     height: 32px;
-    padding-right: 72px;
+    
 }
 <!--information_main-->
 
 .information_main {
     width: 100%;
-    display: block;
-    height: auto;
 }
 
 .information_main img{
     padding: 32px 24px;
-    width: 60%;
+    width: 55%;
     float: left;
-
 }
-
-
-
-.information {
-    width: 36%;
+.aside {
     float: right;
+    width: 40%;
+
+
 }
 <!--information_date-->
 .information_date {
@@ -133,45 +129,49 @@ body{
 }
 .information_date img{
     width: 35%;
-    padding: 32px 16px;
+    padding: 32px 16px 16px 16px;
 }
 .date {
-    padding: 44px 24px;
+    padding: 52px 24px;
     width: auto;
+    display: block;
     
+     
 }
 .date h1{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .date h2{
     font-weight: lighter;
-    font-size: 16px;
+    font-size: 14px;
 }
 .date h3{
     font-weight: lighter;
     color: skyblue;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 
 .information_text{
     text-align: left; 
-    width: 60%;
-    padding-left: 24px; 
+    width: 55%;
+    padding: 0px 0px 32px 24px; 
     float: left;
+
 }
 .information_text h1{
     font-weight: bold; 
+    font-size: 24px;
 }
 .information_text h2{
     font-weight: normal;
-    font-size: 16px;
+    font-size: 14px;
     padding-top: 24px;
 }
 .information_text h3{
-    font-size: 12px;
+    font-size: 10px;
     font-weight: normal;
     padding: 32px 0px;
 }
@@ -179,13 +179,12 @@ body{
 <!--information_campus-->
 
 .information_campus {
-  float: left;
+   float: left;
     
 }
 .information_campus img{
     width: 35%;
     padding: 16px 16px;
-    
 }
 
 .campus {
@@ -195,17 +194,17 @@ body{
 }
 .information_campus h1{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .information_campus h2{
     font-weight: lighter;
-    font-size: 16px;
+    font-size: 14px;
 }
 .information_campus h3{
     font-weight: lighter;
     color: skyblue;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 
@@ -214,31 +213,34 @@ body{
    
 .information_guest{
     float: left;
+    background-color: lightgray;
 
 }
 .information_guest img{
     width: 35%;
     padding: 0px 16px 16px 16px;
-    
+      
 }
 
 .guest {
-    padding: auto 24px;
+    padding: 16px 24px;
     width: auto;
+    display: block;
+    
 }
 .information_guest h1{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .information_guest h2{
     font-weight: lighter;
-    font-size: 16px;
+    font-size: 14px;
 }
 .information_guest h3{
     font-weight: lighter;
     color: skyblue;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 
