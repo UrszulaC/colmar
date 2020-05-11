@@ -1,21 +1,22 @@
+
+
 body{
-    font-family: Verdana, sans-serif;
-    color: #4d4b4b;
+    font-family: 'Roboto', sans-serif;
+    color: #4a4a4a;
+    background-color: rgb(238, 234, 234);
     width: 100%;
-    height: auto;
-    background-color: rgb(235, 232, 232);
     
 }
+
 
 
 <!--header-->
 
 
 .header{
-    width: 100%;
-    height: 64px;
-    padding-right: 24px;
-    padding-left: 24px;
+    height: 4em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
     background-color: white;
 }
 .inner_header{   
@@ -25,43 +26,45 @@ body{
 }
 .logo_container{  
    float: left;
+  
 }
 
 .logo_container h1{
     color: #4d4b4b;
     vertical-align: middle;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: normal;
     float: left;
 
 }
 
 .logo_container img{
-    padding-left: 24px;
-    size: 24px;
+    padding-left: 1.5em;
+    size: 1.5em;
     vertical-align: middle;
     height: auto;
 }
 
 .logo_container span{
     font-weight: normal;
-    color: grey;
+    color: #4a4a4a;
 
 } 
 .navigation{
     float: right;  
-    padding-right: 24px; 
+    padding-right: 1.5em; 
 }
 
 .navigation a{
-    padding: 0px 8px;  
+    padding: 0em 0.5em;  
 }
 
 .navigation a li{
    display: table-cell;
    vertical-align: middle;
-   font-size: 16px;
-   text-align: center;   
+   font-size: 1em;
+   text-align: center;  
+   color: #4a4a4a; 
 }
 
 
@@ -69,206 +72,169 @@ body{
 
 
 .banner{
-    background-color: rgb(182, 178, 178); 
-    width: 100%;
+    background-color: gray;
+    display: inline-block;
+
 }
 .banner img{
-    width: 55%;
-    padding: 32px 32px 32px 24px;
+    max-width: 55%;
+    padding: 2em 2em 2em 1.5em;
     float: left;
        
 }
 .inner_banner{
-    width: 34%;   
-    float: left;
-    padding: 128px 24px 128px 24px;
+    padding: 4em 1.5em 4em 0.75em; 
+    max-width: 37%;
+    float: right;
+  
+    
 }    
 .inner_banner h1{
-    font-size: 38px;
+    font-size: 3em;
     
 }  
 .inner_banner h2{
-    font-size: 22px;
+    font-size: 1.75em;
     font-weight: lighter;
-}  
+}
 .inner_banner h3{
-    color: white;
-    font-size: 16px;
-    font-weight: lighter;
+    font-size: 1.3em;
+    color: #ffffff;
+    letter-spacing: 0.03em;
+    line-height: 2.0em;
     text-align: center;
-    padding: 8px 16px;
-    vertical-align: middle;
+    
 }
 .button {
-    background-color: #4d4b4b;
-    width: 75%;
-    height: 32px;
+    width: 80%;
+    background-color: #4a4a4a;
+    height: 3.03em;
+    
     
 }
 <!--information_main-->
 
-.information_main {
+.information {
+    display: inline-block;
     width: 100%;
 }
 
-.information_main img{
-    padding: 32px 24px;
+.information img, video, .information_text{
+    padding: 2em 1.5em;
     width: 55%;
     float: left;
 }
+
+<!--aside-->
+
 .aside {
-    float: right;
-    width: 40%;
-
-
-}
-<!--information_date-->
-.information_date {
-    float: left;
-}
-.information_date img{
-    width: 35%;
-    padding: 32px 16px 16px 16px;
-}
-.date {
-    padding: 52px 24px;
-    width: auto;
-    display: block;
+    max-width: 40%;
+    padding-top: 2em;
     
-     
-}
-.date h1{
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.date h2{
-    font-weight: lighter;
-    font-size: 14px;
-}
-.date h3{
-    font-weight: lighter;
-    color: skyblue;
-    font-size: 14px;
-}
-
-
-.information_text{
-    text-align: left; 
-    width: 55%;
-    padding: 0px 0px 32px 24px; 
+}    
+.aside img{
+    width: 13%;  
     float: left;
+    padding: 2em 1em;
 
+}    
+
+.aside_text {  
+    float: left;
+    padding-top: 2em;
+    width: 20%;
+    text-align: left;
 }
+.aside_text h1{
+    font-weight: bold;
+    font-size: 1.5em;
+    
+}
+
+.aside_text h2{
+    font-weight: lighter;
+    font-size: 1em;
+    
+}
+.aside_text h3{
+    font-weight: lighter;
+    color: rgb(42, 42, 252);
+    font-size: 0.75em;
+    
+}
+
+<!--information_text-->
+
 .information_text h1{
     font-weight: bold; 
-    font-size: 24px;
+    font-size: 2em;
 }
 .information_text h2{
     font-weight: normal;
-    font-size: 14px;
-    padding-top: 24px;
+    font-size: 1em;
+    padding-top: 1.5em;
 }
 .information_text h3{
-    font-size: 10px;
+    font-size: 0.75em;
     font-weight: normal;
-    padding: 32px 0px;
-}
-
-<!--information_campus-->
-
-.information_campus {
-   float: left;
-    
-}
-.information_campus img{
-    width: 35%;
-    padding: 16px 16px;
-}
-
-.campus {
-    padding: 44px 24px;
-    width: auto;
-    
-}
-.information_campus h1{
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.information_campus h2{
-    font-weight: lighter;
-    font-size: 14px;
-}
-.information_campus h3{
-    font-weight: lighter;
-    color: skyblue;
-    font-size: 14px;
+    padding: 2em 0em;
 }
 
 
-<!--information_guest-->
+<!--middle-->
 
-   
-.information_guest{
-    background-color: lightgray;
-
-}
-.information_guest img{
-    width: 35%;
-    padding: 0px 16px 16px 16px;    
-}
-
-.guest {
-    padding: 16px 24px;
-    width: auto;
-    display: block;
-    
-}
-.information_guest h1{
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.information_guest h2{
-    font-weight: lighter;
-    font-size: 14px;
-}
-.information_guest h3{
-    font-weight: lighter;
-    color: skyblue;
-    font-size: 14px;
-}
 .middle{
     background-color: lightgrey;
+    display: inline-block;
+    padding: 2em 4.5em;
     width: 100%;
 }
+
+.middle h1{
+    text-align: center;
+
+}
+<!--row_and_column-->
 .row {
-    display: inline-block;
-    width: 100%;
-    padding: 32px 72px;  
+    display: table;
+    padding: 2em 4.5em; 
+
 }
 .column {
-    display: inline-block;
     width: 28%;
     background-color: white;
-    margin-right: 32px;
+    display: inline-block;
 }
-.column img {
+.column img{
     width: 100%;
     
 }
 .column_text{
-    padding: 16px 16px 24px 16px; 
+    padding: 1em 1em 1.5em 1em; 
     
 }  
 .column h1{
-    font-size: 20px;
+    font-size: 1.4em;
+    text-align: left;
 }
 
-.column h2, h3 {
-    font-size: 14px;
+.column h2, h3{
+    font-size: 0.9em;
     font-weight: lighter;
-    padding-top: 8px;
+    padding-top: 0.5em;
+}
+
+<!--buttom-->
+
+.buttom{
+    width: 100%;
+    display: inline-block;
+    
+}
+
+.buttom h1{
+    text-align: center;
+    padding-top: 2em;
+    font-size: 2em;
 }
 
